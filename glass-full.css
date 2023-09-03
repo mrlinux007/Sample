@@ -1,0 +1,69 @@
+body{
+	background:url('CHSS.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 95vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(8px);
+}
+.main {
+	background:radial-gradient(rgba(0,0,0,0),rgba(255,255,255,0.6));
+	width: 1200px;
+	height: 600px;
+	border-radius: 20px;
+	box-shadow: 15px 18px 20px rgba(0,0,0,0.6);
+	font-family: URW Chancery L, cursive;
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	float: left;
+	cursor: pointer;
+	font-size: 50px;
+	font-style: bold;
+	color: red;
+	font-weight: 900;
+}
+nav {
+	display: flex;
+	align-items: center;
+	margin: 3px 3%;
+}
+nav ul {
+	flex: 1;
+	text-align:right;
+}
+nav ul li {
+	list-style: none;
+	font-size: 20px;
+	display: inline-block;
+	margin: 2px 20px;
+}
+nav ul li a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.2s;
+}
+nav ul li a:hover{
+	color: #00FFE1;
+}
+.content {
+	text-align: center;
+	font-family: cursive;
+}
+.content button {
+	background: transparent;
+	font-size: 18px;
+	margin: 0px 15px;
+	border-radius: 10px;
+	color: #000000;
+	transition: ease-in-out 0.3s;
+	border-color:#6CB4FF;
+	box-shadow: 3px 3px 3px;
+}
+.content button:hover{
+	background:#00FFE1;
+}
